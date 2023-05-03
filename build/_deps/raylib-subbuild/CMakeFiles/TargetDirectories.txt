@@ -1,3 +1,0 @@
-/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-subbuild/CMakeFiles/raylib-populate.dir
-/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-subbuild/CMakeFiles/edit_cache.dir
-/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-subbuild/CMakeFiles/rebuild_cache.dir
