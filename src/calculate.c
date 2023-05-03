@@ -1,6 +1,6 @@
 #include "calc.h"
 
-void make_array(string input, literal *literal_array) {
+void make_array(string input, literal *literal_array, double xval) {
   char funcs[] = {'c', 's', 't', 'a', 'o', 'u', 'q', 'l', 'g', '\0'};
   char operas[] = {'*', '/', 'm', '+', '-', '^', '\0'};
   char numbs[] = {'1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '.', '\0'};
@@ -22,10 +22,9 @@ void make_array(string input, literal *literal_array) {
       sscanf(input.str, "%c", &simbol);
       literal_array[i].val = (double)simbol;
       literal_array[i].type = FUNC;
-    } else if (*input.str == 'x') {
-      sscanf(input.str, "%c", &simbol);
-      literal_array[i].val = (double)simbol;
-      literal_array[i].type = X;
+    } else if (*input.str == 'x' || *input.str == 'X') {
+      literal_array[i].val = xval;
+      literal_array[i].type = INT;
     } else if (*input.str == '(' || *input.str == ')') {
       sscanf(input.str, "%c", &simbol);
       literal_array[i].val = (double)simbol;
@@ -41,7 +40,7 @@ void make_stack(literal *literal_array, literal *output) {
   literal support[255] = {0};
 
   for (int i = 0; literal_array[i].type; i++) {
-    if (literal_array[i].type == INT || literal_array[i].type == X) {
+    if (literal_array[i].type == INT) {
       push(literal_array[i], output);
     } else if (literal_array[i].type == OPER || literal_array[i].type == FUNC) {
       if (get_priority(literal_array[i]) >
@@ -69,13 +68,13 @@ void make_stack(literal *literal_array, literal *output) {
   }
 }
 
-void pn(string input, literal *output) {
+void pn(string input, literal *output, double xval) {
   literal literal_array[255] = {0};
-  make_array(input, literal_array);
+  make_array(input, literal_array, xval);
   make_stack(literal_array, output);
 }
 
-double calc(string input) {
+double calc(string input, double xval) {
   double result = 0;
   literal output[255] = {0};
   double val1 = 0;
@@ -84,7 +83,7 @@ double calc(string input) {
   int k = 0;
   int z = 0;
 
-  pn(input, output);
+  pn(input, output, xval);
 
   for (int i = 0; output[i].type; i++) {
     if (i != 0) {

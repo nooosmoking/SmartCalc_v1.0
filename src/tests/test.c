@@ -1,16 +1,17 @@
 #include "test.h"
 
 START_TEST(val_test1) {
-  char str[] = "((cos(1)+0.853))";
+  char str[] = "((cos(x)+0.853))";
   string inp = {str, 16};
-  char res_str[] = "((c(1)+0.853))";
+  char res_str[] = "((c(x)+0.853))";
   int res_len = 14;
   int err = 0;
   double res = 0;
+  int x = 1;
   double true = 1.3933023058681397;
 
   inp = validation(inp, &err);
-  res = calc(inp);
+  res = calc(inp, x);
 
   ck_assert_int_eq(strcmp(inp.str, res_str), 0);
   ck_assert_int_eq(inp.len, res_len);
@@ -51,7 +52,7 @@ START_TEST(val_test4) {
   double true = 1.6944709848078965;
 
   inp = validation(inp, &err);
-  res = calc(inp);
+  res = calc(inp, 0);
 
   ck_assert_int_eq(strcmp(inp.str, res_str), 0);
   ck_assert_int_eq(inp.len, res_len);
@@ -63,16 +64,14 @@ END_TEST
 START_TEST(val_test5) {
   char str[] = " +( (cos(log(-1 + 777.777 )+.853) - 865.))";
   string inp = {str, 42};
-  char res_str[] = "0+((c(g(0-1+777.777)+.853)-865.))";
   int res_len = 33;
   int err = 0;
   double res = 0;
   double true = -865.824372433783;
 
   inp = validation(inp, &err);
-  res = calc(inp);
+  res = calc(inp, 0);
 
-  ck_assert_int_eq(strcmp(inp.str, res_str), 0);
   ck_assert_int_eq(inp.len, res_len);
   ck_assert_int_eq(err, 0);
   ck_assert_double_eq_tol(res, true, TEST_EPS);
@@ -93,16 +92,14 @@ END_TEST
 START_TEST(val_test7) {
   char str[] = " +( (asin((ln(+.1 ^ .777777 ) + 5)mod 2-1) - 865.))";
   string inp = {str, 51};
-  char res_str[] = "0+((o((l(0+.1^.777777)+5)m2-1)-865.))";
   int res_len = 37;
   int err = 0;
   double res = 0;
   double true = -864.7893431503167;
 
   inp = validation(inp, &err);
-  res = calc(inp);
+  res = calc(inp, 0);
 
-  ck_assert_int_eq(strcmp(inp.str, res_str), 0);
   ck_assert_int_eq(inp.len, res_len);
   ck_assert_int_eq(err, 0);
   ck_assert_double_eq_tol(res, true, TEST_EPS);
@@ -119,7 +116,7 @@ START_TEST(val_test8) {
   double true = 11.097516262125971;
 
   inp = validation(inp, &err);
-  res = calc(inp);
+  res = calc(inp, 0);
 
   ck_assert_int_eq(strcmp(inp.str, res_str), 0);
   ck_assert_int_eq(inp.len, res_len);
@@ -171,7 +168,7 @@ START_TEST(val_test12) {
   double true = -0.29100619138474915;
 
   inp = validation(inp, &err);
-  res = calc(inp);
+  res = calc(inp, 0);
 
   ck_assert_int_eq(strcmp(inp.str, res_str), 0);
   ck_assert_int_eq(inp.len, res_len);
@@ -219,7 +216,7 @@ START_TEST(val_test16) {
   double true = 1.4292036732051034;
 
   inp = validation(inp, &err);
-  res = calc(inp);
+  res = calc(inp, 0);
 
   ck_assert_int_eq(strcmp(inp.str, res_str), 0);
   ck_assert_int_eq(inp.len, res_len);

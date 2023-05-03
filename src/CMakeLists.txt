@@ -23,15 +23,15 @@ if (NOT raylib_FOUND) # If there's none, fetch and build raylib
     endif()
 endif()
 
-set(RAYGUI_VERSION 3.2)
-find_package(raygui ${RAYGUI_VERSION} QUIET) # QUIET or REQUIRED
+# set(RAYGUI_VERSION 3.2)
+# find_package(raygui ${RAYGUI_VERSION} QUIET) # QUIET or REQUIRED
 
-include(ExternalProject)
-FetchContent_Declare(
-                raygui
-                URL https://github.com/raysan5/raygui/archive/refs/tags/${RAYGUI_VERSION}.tar.gz
-    )
-FetchContent_MakeAvailable(raygui)
+# include(ExternalProject)
+# FetchContent_Declare(
+#                 raygui
+#                 URL https://github.com/raysan5/raygui/archive/refs/tags/${RAYGUI_VERSION}.tar.gz
+#     )
+# FetchContent_MakeAvailable(raygui)
 include_directories(${raygui_SOURCE_DIR}/src)
 # Directory Variables
 set(RAYGUI_ROOT ${raygui_SOURCE_DIR})
@@ -45,7 +45,7 @@ set(OpenGL_GL_PREFERENCE GLVND)
 find_package(OpenGL REQUIRED)
 
 # Our Project
-set(SOURCE_EXE main.c validate.c calculate.c string_edit.c array_stack_help.c)
+set(SOURCE_EXE main.c raygui.h validate.c calculate.c string_edit.c array_stack_help.c ruigui_helper.c)
 
 add_executable(${PROJECT_NAME} ${SOURCE_EXE})
 

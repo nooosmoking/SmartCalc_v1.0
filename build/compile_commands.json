@@ -1,0 +1,142 @@
+[
+{
+  "directory": "/Users/kaleighh/C7_SmartCalc_v1.0-2/build",
+  "command": "/usr/bin/clang -DGRAPHICS_API_OPENGL_33 -DIMG_PATH=\\\"/Users/kaleighh/C7_SmartCalc_v1.0-2/src/img/\\\" -DPLATFORM_DESKTOP -I/src -I/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src -I/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/external/glfw/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.4 -o CMakeFiles/SmartCalc.dir/main.c.o -c /Users/kaleighh/C7_SmartCalc_v1.0-2/src/main.c",
+  "file": "/Users/kaleighh/C7_SmartCalc_v1.0-2/src/main.c"
+},
+{
+  "directory": "/Users/kaleighh/C7_SmartCalc_v1.0-2/build",
+  "command": "/usr/bin/clang -DGRAPHICS_API_OPENGL_33 -DIMG_PATH=\\\"/Users/kaleighh/C7_SmartCalc_v1.0-2/src/img/\\\" -DPLATFORM_DESKTOP -I/src -I/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src -I/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/external/glfw/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.4 -o CMakeFiles/SmartCalc.dir/validate.c.o -c /Users/kaleighh/C7_SmartCalc_v1.0-2/src/validate.c",
+  "file": "/Users/kaleighh/C7_SmartCalc_v1.0-2/src/validate.c"
+},
+{
+  "directory": "/Users/kaleighh/C7_SmartCalc_v1.0-2/build",
+  "command": "/usr/bin/clang -DGRAPHICS_API_OPENGL_33 -DIMG_PATH=\\\"/Users/kaleighh/C7_SmartCalc_v1.0-2/src/img/\\\" -DPLATFORM_DESKTOP -I/src -I/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src -I/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/external/glfw/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.4 -o CMakeFiles/SmartCalc.dir/calculate.c.o -c /Users/kaleighh/C7_SmartCalc_v1.0-2/src/calculate.c",
+  "file": "/Users/kaleighh/C7_SmartCalc_v1.0-2/src/calculate.c"
+},
+{
+  "directory": "/Users/kaleighh/C7_SmartCalc_v1.0-2/build",
+  "command": "/usr/bin/clang -DGRAPHICS_API_OPENGL_33 -DIMG_PATH=\\\"/Users/kaleighh/C7_SmartCalc_v1.0-2/src/img/\\\" -DPLATFORM_DESKTOP -I/src -I/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src -I/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/external/glfw/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.4 -o CMakeFiles/SmartCalc.dir/string_edit.c.o -c /Users/kaleighh/C7_SmartCalc_v1.0-2/src/string_edit.c",
+  "file": "/Users/kaleighh/C7_SmartCalc_v1.0-2/src/string_edit.c"
+},
+{
+  "directory": "/Users/kaleighh/C7_SmartCalc_v1.0-2/build",
+  "command": "/usr/bin/clang -DGRAPHICS_API_OPENGL_33 -DIMG_PATH=\\\"/Users/kaleighh/C7_SmartCalc_v1.0-2/src/img/\\\" -DPLATFORM_DESKTOP -I/src -I/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src -I/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/external/glfw/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.4 -o CMakeFiles/SmartCalc.dir/array_stack_help.c.o -c /Users/kaleighh/C7_SmartCalc_v1.0-2/src/array_stack_help.c",
+  "file": "/Users/kaleighh/C7_SmartCalc_v1.0-2/src/array_stack_help.c"
+},
+{
+  "directory": "/Users/kaleighh/C7_SmartCalc_v1.0-2/build",
+  "command": "/usr/bin/clang -DGRAPHICS_API_OPENGL_33 -DIMG_PATH=\\\"/Users/kaleighh/C7_SmartCalc_v1.0-2/src/img/\\\" -DPLATFORM_DESKTOP -I/src -I/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src -I/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/external/glfw/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.4 -o CMakeFiles/SmartCalc.dir/ruigui_helper.c.o -c /Users/kaleighh/C7_SmartCalc_v1.0-2/src/ruigui_helper.c",
+  "file": "/Users/kaleighh/C7_SmartCalc_v1.0-2/src/ruigui_helper.c"
+},
+{
+  "directory": "/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-build/raylib",
+  "command": "/usr/bin/clang -DGL_SILENCE_DEPRECATION -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src -isystem /Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/external/glfw/include -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.4 -std=gnu99 -o CMakeFiles/raylib.dir/rcore.c.o -c /Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/rcore.c",
+  "file": "/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/rcore.c"
+},
+{
+  "directory": "/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-build/raylib",
+  "command": "/usr/bin/clang -DGL_SILENCE_DEPRECATION -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src -isystem /Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/external/glfw/include -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.4 -std=gnu99 -o CMakeFiles/raylib.dir/rmodels.c.o -c /Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/rmodels.c",
+  "file": "/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/rmodels.c"
+},
+{
+  "directory": "/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-build/raylib",
+  "command": "/usr/bin/clang -DGL_SILENCE_DEPRECATION -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src -isystem /Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/external/glfw/include -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.4 -std=gnu99 -o CMakeFiles/raylib.dir/rshapes.c.o -c /Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/rshapes.c",
+  "file": "/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/rshapes.c"
+},
+{
+  "directory": "/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-build/raylib",
+  "command": "/usr/bin/clang -DGL_SILENCE_DEPRECATION -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src -isystem /Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/external/glfw/include -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.4 -std=gnu99 -o CMakeFiles/raylib.dir/rtext.c.o -c /Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/rtext.c",
+  "file": "/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/rtext.c"
+},
+{
+  "directory": "/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-build/raylib",
+  "command": "/usr/bin/clang -DGL_SILENCE_DEPRECATION -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src -isystem /Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/external/glfw/include -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.4 -std=gnu99 -o CMakeFiles/raylib.dir/rtextures.c.o -c /Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/rtextures.c",
+  "file": "/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/rtextures.c"
+},
+{
+  "directory": "/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-build/raylib",
+  "command": "/usr/bin/clang -DGL_SILENCE_DEPRECATION -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src -isystem /Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/external/glfw/include -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.4 -std=gnu99 -o CMakeFiles/raylib.dir/utils.c.o -c /Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/utils.c",
+  "file": "/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/utils.c"
+},
+{
+  "directory": "/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-build/raylib",
+  "command": "/usr/bin/clang -DGL_SILENCE_DEPRECATION -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src -isystem /Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/external/glfw/include -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.4 -std=gnu99 -o CMakeFiles/raylib.dir/raudio.c.o -c /Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/raudio.c",
+  "file": "/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/raudio.c"
+},
+{
+  "directory": "/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-build/raylib/external/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/external/glfw/include -I/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/external/glfw/src -I/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.4 -fPIC -Wall -std=c99 -o CMakeFiles/glfw.dir/context.c.o -c /Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/external/glfw/src/context.c",
+  "file": "/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/external/glfw/src/context.c"
+},
+{
+  "directory": "/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-build/raylib/external/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/external/glfw/include -I/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/external/glfw/src -I/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.4 -fPIC -Wall -std=c99 -o CMakeFiles/glfw.dir/init.c.o -c /Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/external/glfw/src/init.c",
+  "file": "/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/external/glfw/src/init.c"
+},
+{
+  "directory": "/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-build/raylib/external/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/external/glfw/include -I/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/external/glfw/src -I/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.4 -fPIC -Wall -std=c99 -o CMakeFiles/glfw.dir/input.c.o -c /Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/external/glfw/src/input.c",
+  "file": "/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/external/glfw/src/input.c"
+},
+{
+  "directory": "/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-build/raylib/external/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/external/glfw/include -I/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/external/glfw/src -I/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.4 -fPIC -Wall -std=c99 -o CMakeFiles/glfw.dir/monitor.c.o -c /Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/external/glfw/src/monitor.c",
+  "file": "/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/external/glfw/src/monitor.c"
+},
+{
+  "directory": "/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-build/raylib/external/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/external/glfw/include -I/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/external/glfw/src -I/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.4 -fPIC -Wall -std=c99 -o CMakeFiles/glfw.dir/vulkan.c.o -c /Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/external/glfw/src/vulkan.c",
+  "file": "/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/external/glfw/src/vulkan.c"
+},
+{
+  "directory": "/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-build/raylib/external/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/external/glfw/include -I/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/external/glfw/src -I/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.4 -fPIC -Wall -std=c99 -o CMakeFiles/glfw.dir/window.c.o -c /Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/external/glfw/src/window.c",
+  "file": "/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/external/glfw/src/window.c"
+},
+{
+  "directory": "/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-build/raylib/external/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/external/glfw/include -I/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/external/glfw/src -I/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.4 -fPIC -Wall -std=c99 -o CMakeFiles/glfw.dir/cocoa_init.m.o -c /Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/external/glfw/src/cocoa_init.m",
+  "file": "/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/external/glfw/src/cocoa_init.m"
+},
+{
+  "directory": "/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-build/raylib/external/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/external/glfw/include -I/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/external/glfw/src -I/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.4 -fPIC -Wall -std=c99 -o CMakeFiles/glfw.dir/cocoa_joystick.m.o -c /Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/external/glfw/src/cocoa_joystick.m",
+  "file": "/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/external/glfw/src/cocoa_joystick.m"
+},
+{
+  "directory": "/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-build/raylib/external/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/external/glfw/include -I/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/external/glfw/src -I/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.4 -fPIC -Wall -std=c99 -o CMakeFiles/glfw.dir/cocoa_monitor.m.o -c /Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/external/glfw/src/cocoa_monitor.m",
+  "file": "/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/external/glfw/src/cocoa_monitor.m"
+},
+{
+  "directory": "/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-build/raylib/external/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/external/glfw/include -I/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/external/glfw/src -I/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.4 -fPIC -Wall -std=c99 -o CMakeFiles/glfw.dir/cocoa_window.m.o -c /Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/external/glfw/src/cocoa_window.m",
+  "file": "/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/external/glfw/src/cocoa_window.m"
+},
+{
+  "directory": "/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-build/raylib/external/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/external/glfw/include -I/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/external/glfw/src -I/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.4 -fPIC -Wall -std=c99 -o CMakeFiles/glfw.dir/cocoa_time.c.o -c /Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/external/glfw/src/cocoa_time.c",
+  "file": "/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/external/glfw/src/cocoa_time.c"
+},
+{
+  "directory": "/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-build/raylib/external/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/external/glfw/include -I/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/external/glfw/src -I/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.4 -fPIC -Wall -std=c99 -o CMakeFiles/glfw.dir/posix_thread.c.o -c /Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/external/glfw/src/posix_thread.c",
+  "file": "/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/external/glfw/src/posix_thread.c"
+},
+{
+  "directory": "/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-build/raylib/external/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/external/glfw/include -I/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/external/glfw/src -I/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.4 -fPIC -Wall -std=c99 -o CMakeFiles/glfw.dir/nsgl_context.m.o -c /Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/external/glfw/src/nsgl_context.m",
+  "file": "/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/external/glfw/src/nsgl_context.m"
+},
+{
+  "directory": "/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-build/raylib/external/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/external/glfw/include -I/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/external/glfw/src -I/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.4 -fPIC -Wall -std=c99 -o CMakeFiles/glfw.dir/egl_context.c.o -c /Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/external/glfw/src/egl_context.c",
+  "file": "/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/external/glfw/src/egl_context.c"
+},
+{
+  "directory": "/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-build/raylib/external/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/external/glfw/include -I/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/external/glfw/src -I/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.4 -fPIC -Wall -std=c99 -o CMakeFiles/glfw.dir/osmesa_context.c.o -c /Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/external/glfw/src/osmesa_context.c",
+  "file": "/Users/kaleighh/C7_SmartCalc_v1.0-2/build/_deps/raylib-src/src/external/glfw/src/osmesa_context.c"
+}
+]

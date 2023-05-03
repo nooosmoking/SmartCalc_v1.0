@@ -1,21 +1,10 @@
 #include "calc.h"
 
-//
-// 1. проверяешь строку на совподение с построкой.
-// 1-9 , sin, cos, + ,- ,/
-// 2. str ->0 ++
-// str = cos12+3
-// ()
-// sin cos  -> s, c
-// for sub_str in [ (, 3, "sin", "cos",]:
-//      strstr(str, sub_str)
-//      str+= len(sub_str)
-
 int check_liter(string input) {
   char *liter[] = {"cos", "sin", "tan", "acos", "asin", "atan", "sqrt", "ln",
                    "log", "(",   ")",   "*",    "/",    "mod",  "+",    "-",
                    "^",   "1",   "2",   "3",    "4",    "5",    "6",    "7",
-                   "8",   "9",   "0",   "x",    ".",    " "};
+                   "8",   "9",   "0",   "x",    "X",    ".",    " "};
   int err = 0, err1 = 0, err2 = 0;
   int match = 0;
   int func = 0;
@@ -23,7 +12,7 @@ int check_liter(string input) {
   int start = 1;
   while (*(input.str) && !err) {
     match = 0;
-    for (int i = 0; !match && i < 30 && !err; i++) {
+    for (int i = 0; !match && i < 31 && !err; i++) {
       match = compare_liter(input.str, liter[i]);
 
       if (match) {
@@ -52,13 +41,13 @@ int check_liter(string input) {
         } else if (liter[i][0] == ' ') {
           if (!start) {
             input.str--;
-            for (int j = 17; j < 29 && !err; j++) {
+            for (int j = 17; j < 30 && !err; j++) {
               err1 = compare_liter(input.str, liter[j]);
             }
             input.str++;
           }
           input.str++;
-          for (int j = 17; j < 29 && !err; j++) {
+          for (int j = 17; j < 30 && !err; j++) {
             err2 = compare_liter(input.str, liter[j]);
           }
           input.str--;
@@ -106,7 +95,7 @@ int check_order(string input) {
   char funcs[] = {'c', 's', 't', 'a', 'o', 'u', 'q', 'l', 'g', '\0'};
   char operas[] = {'*', '/', 'm', '+', '-', '^', '\0'};
   char numbs[] = {'1', '2', '3', '4', '5', '6', '7',
-                  '8', '9', '0', '.', 'x', '\0'};
+                  '8', '9', '0', '.', 'x', 'X', '\0'};
   int err = 0;
   int dot = 0;
   int last = 0, next = 0;
@@ -135,6 +124,7 @@ int check_order(string input) {
         if (!err && i < s_copy.len - 1) {
           err = !(chrbrk(s_copy.str[next], operas));
         }
+
       } else if (strchr(operas, s_copy.str[i])) {
         dot = 0;
         if (i == 0 || i == s_copy.len - 1)
@@ -153,6 +143,11 @@ int check_order(string input) {
           dot++;
         else if (s_copy.str[i] == '.' && dot > 0)
           err = 1;
+        if ((s_copy.str[i] == 'x' || s_copy.str[i] == 'X') &&
+            (!chrbrk(s_copy.str[last], numbs) ||
+             !chrbrk(s_copy.str[next], numbs))) {
+          err = 1;
+        }
       }
     }
   }
@@ -184,4 +179,31 @@ string validation(string input, int *err) {
     *err = check_order(input);
   }
   return input;
+}
+
+double validVal(char *input, int *err) {
+  char numbs[] = {'1', '2', '3', '4', '5', '6', '7',
+                  '8', '9', '0', '.', '-', '\0'};
+
+  int start = 1;
+  char *p = input;
+  int dot = 0;
+  double res = 0;
+
+  while (*(p) && !*err) {
+    if (chrbrk(*p, numbs)) (*err)++;
+    if (*p == '.' && dot == 0)
+      dot++;
+    else if (*p == '.' && dot > 0)
+      (*err)++;
+    else if (*p == '-' && !start) {
+      (*err)++;
+      printf("\n!\n");
+    }
+    start = 0;
+    p++;
+  }
+  sscanf(input, "%lf", &res);
+
+  return res;
 }
