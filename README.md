@@ -4,7 +4,7 @@ Implementation of SmartCalc v1.0
 The SmartCalc v1.0 program must be implemented:
 
 The program must be built with Makefile which contains standard set of targets for GNU-programs: all, install, uninstall, clean, dvi, dist, test, gcov_report. Installation directory could be arbitrary, except the building one
-GUI implementation, based on Qt
+GUI implementation, based on RayGUI
 Calculating arbitrary bracketed arithmetic expressions in infix notation
 Calculate arbitrary bracketed arithmetic expressions in infix notation with substitution of the value of the variable x as a number
 Plotting a graph of a function given by an expression in infix notation with the variable x (with coordinate axes, mark of the used scale and an adaptive grid)
